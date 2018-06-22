@@ -1,0 +1,21 @@
+{
+  "name": "project",
+  "version": "1.0.0",
+  "description": "模板引擎：\r \tartTemplate：https://github.com/aui/art-template\r \thttps://aui.github.io/art-template/zh-cn/index.html\r \t使用：\r \t\t1. 下载js文件\r \t\t2. 编写模板\r \t\t\t<script type=\"text/html\" id=\"\">\r \t\t\t\t<div>\r \t\t\t\t\t<a href=\"\">\r \t\t\t\t\t\t<span>{{id}}</span>\r \t\t\t\t\t\t<h1>{{title}}</h1>\r \t\t\t\t\t</a>\r \t\t\t\t</div>\r \t\t\t</script>\r \t\t3. 在 JS 代码中，找到模板，渲染\r \t\t\tvar html = template(\"id\", {id:5, title:\"abc\"});\r \t\t\tdocument.getElementById(\"xxx\").innerHTML = html;",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.7.0",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^7.0.1",
+    "gulp-clean-css": "^3.9.4",
+    "gulp-connect": "^5.5.0",
+    "gulp-uglify": "^3.0.0"
+  }
+}
